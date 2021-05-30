@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "popins", sans-serif;
+}
+
+.button {
+  color: white;
+}
+
+#header {
+}
+.logo {
+  width: 15%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  align-self: center;
+}
+
+.header-menu > a {
+  margin-right: 15px;
+}
+
+#tophero {
+  background-color: rgb(246, 196, 32);
+  /* height:5000px; */
+}
+
+/* footer */
+
+#footer {
+  color: #2a2121;
+  background-color: #f6f8fa;
+}
+
+.footer {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.footer_logo {
+  width: 75px;
+}
+
+.footer_logo_text {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.footer_heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer_text {
+  color: #2a2121;
+}
+
+.social_media_icon {
+  margin-right: 8px;
+}
+
+.bi-facebook {
+  background-color: #1773ea !important;
+  color: white !important;
+  margin-left: 15px;
+}
+
+.bi-facebook:hover {
+  background-color: white !important;
+  color: #1773ea !important;
+  border: 1px solid #1773ea !important;
+}
+.bi-instagram {
+  background-color: #8a3ab9 !important;
+  color: white !important;
+}
+
+.bi-instagram:hover {
+  background-color: white !important;
+  color: #8a3ab9 !important;
+  border: 1px solid #8a3ab9 !important;
+}
+
+.bi-linkedin {
+  background-color: #0e76a8 !important;
+  color: white !important;
+}
+
+.bi-linkedin:hover {
+  background-color: white !important;
+  color: #0e76a8 !important;
+  border: 1px solid #0e76a8 !important;
+}
+.bi-twitter {
+  background-color: #00acee !important;
+  color: white !important;
+}
+
+.bi-twitter:hover {
+  background-color: white !important;
+  color: #00acee !important;
+  border: 1px solid #00acee !important;
+}
+
+.footer_contact_icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer_contact_icon > i {
+  margin-right: 8px;
+  margin-top: 1px;
+  color: #2a2121;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+
+.copyright > p {
+  margin: 0;
+  font-size: 12px;
+}
+
+/* footer end  */
+
+/* Contact us  */
+
+#contact {
+}
+.contact {
+  display: flex;
+  /* flex: 4; */
+  padding: 100px 0;
+}
+
+.contact_left {
+  padding-right: 40px;
+  flex: 3;
+}
+
+.contact_left > img {
+  width: 460px;
+  text-align: left;
+  opacity: 0.95;
+}
+
+.contact_left >h1 {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+
+.contact_left > p {
+  margin-bottom: 29px;
+  line-height: 25px;
+}
+
+.contact_button {
+  padding: 15px 30px 15px 30px;
+  background-color: #f85359;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact_button:hover {
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.45);
+  color: white;
+  background-color: #0a2233;
+  transition: 0.5s;
+}
+
+.contact_right {
+  flex: 1.4;
+  border: 1px solid #dadadb;
+  box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.contact_right_top {
+  background-color: #fff5f5;
+  border-bottom: 3px solid #f85359;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact_right_top > h2 {
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.contact_right_top > p {
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+
+form > input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #e8e8ef;
+  height:50px;
+  padding-left: 15px;
+}
+
+form > input:focus-visible{
+  border:1px solid #f85359!important;
+  outline-width: 0;
+}
+
+.form_button {
+  background-color: #f85359;
+  border: 1px solid #f85359;
+  color: white;
+  line-height: 45px;
+  border-radius: 5px;
+}
+
+.terms_conditions{
+  display: flex;
+  margin-top:15px;
+}
+
+.terms_conditions > input {
+  margin-right: 5px;
+  margin-top:3px;
+}
+
+.terms_conditions > p {
+  font-size:12px!important;
+}
+
+textarea{
+  border:1px solid #e8e8ef;
+  padding-left: 15px;
+}
+
+input:checked{
+  background-color: #f85359!important;
+}
+
+.contact_right_bottom{
+  padding-bottom:20px;
+}
+/* Contact us end   */
